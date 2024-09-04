@@ -83,7 +83,6 @@ public sealed class PlayerDataSingleton : MonoBehaviour {
         selectedWeapon = (int) initialWeapon;
         Invincible = initiallyInvincible;
         Health = initialHealth;
-        print("ohio sizz");
     }
     void Kill() {
 
@@ -92,8 +91,8 @@ public sealed class PlayerDataSingleton : MonoBehaviour {
         WeaponPrefabs[Weapon.NONE] = noneWeaponPrefab;
         WeaponPrefabs[Weapon.FIST_WEAK] = weakArmPrefab;
         WeaponPrefabs[Weapon.FIST] = armPrefab;
+        WeaponPrefabs[Weapon.KNIFE] = knifePrefab;
         // #TODO: Implement
-        // WeaponPrefabs[Weapon.KNIFE] = knifePrefab;
         // WeaponPrefabs[Weapon.GG_GLOCK] = glockPrefab;
         // WeaponPrefabs[Weapon.MMMM_GUN] = gunPrefab;
     }
